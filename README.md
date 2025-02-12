@@ -5,6 +5,7 @@
 ![Spring Data JPA](https://img.shields.io/badge/Spring%20Data%20JPA-Repository-6DB33F?style=for-the-badge&logo=spring)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Spring Boot Validation](https://img.shields.io/badge/Spring%20Boot-Validation-6DB33F?style=for-the-badge&logo=spring)
+![WebSocket](https://img.shields.io/badge/WebSocket-Real--Time-007396?style=for-the-badge&logo=websocket)
 ![Mockito](https://img.shields.io/badge/Mockito-Testing-green?style=for-the-badge&logo=java)
 ![JUnit](https://img.shields.io/badge/JUnit-5-25A162?style=for-the-badge&logo=junit5)
 ![Logging](https://img.shields.io/badge/Logging-SLF4J%20%2F%20Logback-blue?style=for-the-badge&logo=java)
@@ -14,6 +15,17 @@
 This project is a backend service in Java with a websocket to fetch and serve recording data from a mock database.
 ## Purpose
 This project is a demo for the Zetoinc interview process, it's main purpose is to showcase the ability to develop a fullstack application.
+## Technologies Used
+- **Java 17** - Programming Language
+- **Spring Boot 3.2+** - Framework
+- **Spring Data JPA** - Database ORM
+- **MySQL 8.0+** - Database
+- **Spring Boot Validation** - Data Validation
+- **WebSocket** - Real-time data synchronization with frontend
+- **Mockito** - Testing
+- **JUnit 5** - Testing Framework
+- **SLF4J** - Logging
+- **Jacoco** - Test Coverage Reporting
 ## Features
 - 
 ## Project structure
