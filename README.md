@@ -80,10 +80,19 @@ Start the service with the following command from the root folder of the cloned 
 ## Testing
 1. Mockito and JUnit5 is used for the unit testing.
 2. Test coverage needs to be improved. Coverage report can be reached with this command.
+3. Run this command.
+   ```shell
+   mvn clean verify
+   ```
+4. Coverage report can be reached with this command.
     ```shell
     mvn jacoco:report
     ```
-3. Tests can be run with the following command.
+5. Then use this command to open the report.
+   ```shell
+   open target/site/jacoco/index.html 
+   ```
+6. Unit tests can be run with the following command.
     ```shell
     mvn test
     ```
